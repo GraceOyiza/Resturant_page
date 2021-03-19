@@ -28,9 +28,9 @@ const contact= () => (
   
   const contactpage = () => {
     const contactpage = document.createElement('div');
-    // contactpage.insertAdjacentHTML('beforeend', contact());
-    contactpage.innerHTML = contact();
-    console.log(contactpage)
+    contactpage.insertAdjacentHTML('beforeend', contact());
+    // contactpage.innerHTML = contact();
+    // console.log(contactpage)
     return contactpage;
   };
   
