@@ -1,35 +1,35 @@
 const menu = `
 <div class="container d-flex flex-wrap">
 <div class="card m-2" style="width: 30rem;">
-  <img class="card-img-top" src="imgs/parfait.jpg" alt="Parfait">
+  <img class="card-img-top" src="https://allnigerianfoods.com/wp-content/uploads/indomie-noodles.jpg" alt="indomie">
   <div class="card-body">
-   <h5>Parfait</h5>
-    <p class="card-text">₦1,500.00/Cup</p>
+   <h5>Indomie and Egg</h5>
+    <p class="card-text">₦1,500.00/plate</p>
   </div>
 </div>
 
 
 <div class="card m-2" style="width: 30rem;">
-  <img class="card-img-top" src="imgs/banana_bread.jpg" alt="Banana bread">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/bq1sIV7RmyQ/maxresdefault.jpg" alt="Jollof rice">
   <div class="card-body">
-   <h5>Banana Bread</h5>
-    <p class="card-text">₦1,000.00/loaf</p>
+   <h5>Jollof Rice</h5>
+    <p class="card-text">₦1,000.00/plate</p>
   </div>
 </div>
 
 
 <div class="card m-2" style="width: 30rem;">
-  <img class="card-img-top" src="imgs/beef_sauce.jpg" alt="Beef Sauce">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/j5f_DXIMbWA/mqdefault.jpg" alt="Pap">
   <div class="card-body">
-   <h5>Beef Sauce</h5>
+   <h5>Pap and Akara</h5>
     <p class="card-text">₦2,500.00/plate</p>
   </div>
 </div>
 
 <div class="card m-2" style="width: 30rem;">
-  <img class="card-img-top" src="imgs/fried_rice_asun.jpg" alt="Fried Rice">
+  <img class="card-img-top" src="https://broadwaybarandrestaurant.com/wp-content/uploads/IMG_7311.jpg" alt="Fried Rice">
   <div class="card-body">
-   <h5>Fried Rice with Asun</h5>
+   <h5>Fried Boiled Yam and Egg Sauce</h5>
     <p class="card-text">₦3,500.00/plate</p>
   </div>
 </div>
