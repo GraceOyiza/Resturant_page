@@ -7,21 +7,21 @@ const slidecaption = () => (
 </ol>
 <div class="carousel-inner">
   <div class="carousel-item active">
-    <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"" class="d-block w-100 homepage" alt="...">
+    <img src="https://unsplash.com/photos/VH0ZVmUJZZo" class="d-block w-100 homepage" alt="First image">
     <div class="carousel-caption d-none d-md-block font-weight">
       <h2>First slide label</h2>
       <p>Some representative placeholder content for the first slide.</p>
     </div>
   </div>
   <div class="carousel-item">
-    <img src="https://images.unsplash.com/photo-1592406118211-b340891b0af4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100 homepage" alt="...">
+    <img src="https://unsplash.com/photos/7YxWtp5WGXM" class="d-block w-100 homepage" alt="Second image">
     <div class="carousel-caption d-none d-md-block font-weight">
       <h2>Second slide label</h2>
       <p>Some representative placeholder content for the second slide.</p>
     </div>
   </div>
   <div class="carousel-item">
-    <img src="https://images.unsplash.com/photo-1592406118211-b340891b0af4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100 homepage" alt="...">
+    <img src="https://unsplash.com/photos/tKN1WXrzQ3s" class="d-block w-100 homepage" alt="Third image">
     <div class="carousel-caption d-none d-md-block font-weight">
       <h2>Third slide label</h2>
       <p>Some representative placeholder content for the third slide.</p>
