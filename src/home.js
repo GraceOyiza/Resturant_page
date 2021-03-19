@@ -5,9 +5,10 @@ const slidecaption = () => (`
   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
 </div>
+<div class="homepage">
 <div class="carousel-inner">
   <div class="carousel-item active">
-    <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80" class="d-block w-100" alt="...">
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80" alt="Third slide" class="d-block w-100" alt="...">
     <div class="carousel-caption d-none d-md-block">
       <h5>First slide label</h5>
       <p>Some representative placeholder content for the first slide.</p>
@@ -21,7 +22,7 @@ const slidecaption = () => (`
     </div>
   </div>
   <div class="carousel-item">
-    <img src="" class="d-block w-100" alt="...">
+    <img src="#" class="d-block w-100" alt="...">
     <div class="carousel-caption d-none d-md-block">
       <h5>Third slide label</h5>
       <p>Some representative placeholder content for the third slide.</p>
@@ -36,6 +37,7 @@ const slidecaption = () => (`
   <span class="carousel-control-next-icon" aria-hidden="true"></span>
   <span class="visually-hidden">Next</span>
 </button>
+</div>
 </div>`
 );
 
