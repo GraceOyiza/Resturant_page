@@ -1,6 +1,7 @@
-const navigation = () => {
+export default () => {
     const nav = document.createElement('nav');
-  
+   
+
     const navname = document.createElement('h1');
     navname.classList.add('nav-name');
     navname.innerText = 'Basma';
@@ -39,4 +40,4 @@ const navigation = () => {
     return nav;
   };
   
-  export default navigation
+//   export default navigation();
