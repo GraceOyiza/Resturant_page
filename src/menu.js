@@ -39,7 +39,7 @@ const menu = `
 
 const renderMenu = () => {
   const container = document.createElement('div');
-  container.insertAdjacentHTML('beforeend', menu)
+  container.insertAdjacentHTML('beforeend', menu);
   return container;
 };
 
