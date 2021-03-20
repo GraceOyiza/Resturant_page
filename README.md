@@ -3,7 +3,7 @@
 This is part of the Restuarant Project in [The Odin Project's](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page?ref=lnav) Javascript Curriculum.
 
 
-- [Live Demo Link]()
+- [Live Demo Link](https://rawcdn.githack.com/GraceOyiza/Resturant_page/d663f9b4a65bbf769719b5960b090160f19095f5/dist/index.html)
 
 ![screenshot](resturant_page.png)
 
