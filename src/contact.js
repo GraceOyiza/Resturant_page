@@ -1,5 +1,6 @@
-const contact= () => (
-    `<div class="container contact-form">
+
+const contactform = () => (
+    `
     <form method="post">
         <h3>Drop Us a Message</h3>
        <div class="row">
@@ -26,12 +27,10 @@ const contact= () => (
     </form>
   </div>`);
   
-  const contactpage = () => {
-    const contactpage = document.createElement('div');
-    contactpage.insertAdjacentHTML('beforeend', contact());
-    // contactpage.innerHTML = contact();
-    // console.log(contactpage)
-    return contactpage;
+  const createContactPage = () => {
+    const contactPage = document.createElement('div');
+    contactPage.insertAdjacentHTML('beforeend', contactform());
+    return contactPage;
   };
   
-  export default contactpage;
+  export default createContactPage;

@@ -7,21 +7,21 @@ const slidecaption = () => (
 </ol>
 <div class="carousel-inner">
   <div class="carousel-item active">
-    <img src="https://images.unsplash.com/photo-1555992338-d0bacb780a2c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80" class="d-block w-100 homepage" alt="First image">
+    <img src="https://naosusu.com/wp-content/uploads/2018/07/Popular-and-best-restaurants-in-Warri.jpg" class="d-block w-100 homepage" alt="first-image">
     <div class="carousel-caption d-none d-md-block font-weight">
       <h2>First slide label</h2>
       <p>Some representative placeholder content for the first slide.</p>
     </div>
   </div>
   <div class="carousel-item">
-    <img src="https://images.unsplash.com/photo-1614030424754-24d0eebd46b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=671&q=80" class="d-block w-100 homepage" alt="Second image">
+    <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80" class="d-block w-100 homepage" alt="second image">
     <div class="carousel-caption d-none d-md-block font-weight">
       <h2>Second slide label</h2>
       <p>Some representative placeholder content for the second slide.</p>
     </div>
   </div>
   <div class="carousel-item">
-    <img src="https://images.unsplash.com/photo-1495754222495-ecc0bf8aa558?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="d-block w-100 homepage" alt="Third image">
+    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="d-block w-100 homepage" alt="third image">
     <div class="carousel-caption d-none d-md-block font-weight">
       <h2>Third slide label</h2>
       <p>Some representative placeholder content for the third slide.</p>
@@ -39,5 +39,14 @@ const slidecaption = () => (
 </div>`
 );
 
-export default slidecaption;
+const createHomePage = () => {
+  const home = document.createElement('div');
+  home.classList.add('position-relative');
+  home.insertAdjacentHTML('beforeend', slidecaption());
+  return home;
+};
+
+export default createHomePage;
+
+
 

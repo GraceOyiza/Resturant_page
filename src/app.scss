@@ -4,15 +4,13 @@ img {
   object-fit: cover;
 }
 
-// .homepage {
-//   max-height: 50vh;
-// }
 
 nav {
   display: flex;
   justify-content: space-between;
   background-color: red;
-
+  // position: relative;
+  // z-index: 1;
 }
 
 .homepage {
@@ -48,3 +46,7 @@ li {
   font-size: 20px;
   color: black;
 }
+
+// .bg-image{
+//   position: relative !important;
+// }

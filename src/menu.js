@@ -1,5 +1,5 @@
 const menu = `
-<div class="container d-flex flex-wrap">
+<div class="container d-flex flex-wrap mt-3">
 <div class="card m-2" style="width: 30rem;">
   <img class="card-img-top" src="https://allnigerianfoods.com/wp-content/uploads/indomie-noodles.jpg" alt="indomie">
   <div class="card-body">
@@ -38,7 +38,9 @@ const menu = `
 `;
 
 const renderMenu = () => {
-  content.insertAdjacentHTML('beforeend', menu);
+  const container = document.createElement('div');
+  container.insertAdjacentHTML('beforeend', menu)
+  return container;
 };
 
 export default renderMenu;
