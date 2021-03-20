@@ -10,7 +10,7 @@ const createNavLink = (name) => {
   
   const createNavLinks = () => {
     const navLinks = document.createElement('ul');
-    navLinks.classList.add('nav', 'nav-pills', 'nav-fill');
+    navLinks.classList.add('nav', 'nav-items', 'nav-fill');
     navLinks.appendChild(createNavLink('Home'));
     navLinks.appendChild(createNavLink('Menu'));
     navLinks.appendChild(createNavLink('Contact'));

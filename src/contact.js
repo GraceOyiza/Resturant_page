@@ -1,6 +1,7 @@
 
 const contactform = () => (
-    `
+    `<div class="container contact-form mt-5">
+   
     <form method="post">
         <h3>Drop Us a Message</h3>
        <div class="row">
