@@ -2,30 +2,23 @@
 
 a {
   list-style: none;
-  color: none;
+  color: black;
 }
 
 img {
   object-fit: cover;
 }
 
-
 nav {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
-  // position: relative;
-  // z-index: 1;
 }
 
 .homepage {
   max-height: 91vh;
   object-fit: cover;
 }
-
-// .z-1 {
-//   z-index: 1;
-// }
 
 li {
   list-style: none;

@@ -32,4 +32,3 @@ export default () => {
     return nav;
   };
 
-//   export default navigation();
