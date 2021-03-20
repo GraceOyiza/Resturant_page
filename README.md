@@ -39,7 +39,7 @@ $ Open the dist folder in the root of the app, open the index.html file witha br
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/GraceOyiza/Resturant_page/issues).
 
 ## Show your support
 
